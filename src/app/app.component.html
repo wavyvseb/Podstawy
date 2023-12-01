@@ -1,0 +1,13 @@
+<div class="d-flex justify-content-center align-items-center bg-dark text-white" style="height: 100vh;">
+  <div class="container-sm">
+    <h1 class="display-2 mb-3">{{ tytul }}</h1>
+    <router-outlet></router-outlet>
+    <nav>
+      <ul class="nav justify-content-center">
+        <li class="nav-item"><a href="/list" class="nav-link">Lista elementów</a></li>
+        <li class="nav-item"><a href="/exercise" class="nav-link">Zadanie</a></li>
+      </ul>
+    </nav>
+    <footer class="text-center">Made by: {{ autor }}</footer>
+  </div>
+</div>
